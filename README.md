@@ -1,70 +1,34 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Mission Statement:
+• Daft Goods is a grocery store looking for to rebuild their entire e-commerce platform using 
+Docker and Docker Compose. They’ve hired you to complete this work.
+• You must produce an e-commerce website for Daft Goods that meets the following criteria:
+◦ A dockerized instance of a database of your choice
+◦ A dockerized instance of a web-application that you will build over the next few weeks
+• This should include basic user authentication, the ability to create items, update items, and 
+“buy” items (buying should basically delete the item)
+• To receive marks for your work you MUST have a Dockerfile for your own code, and a 
+docker-compose.yml file for your other services (database, etc).
+API Specifications:
+Your application must have the following end-points (taking and returning only JSON):
+• GET /items – Should list all items for sale
+• POST /items – Should add a new item to the database
+• DELETE /items/:id – Should delete an item at a given id
+• POST /login – Should log the user in
+• GET /user – Should return the logged in user
+Recommended Stacks:
+The following are technology stacks that I have experience with so I can provide the best support for 
+you. If you decide to use technology not listed here that is okay too!
+Ruby on Rails (Ruby), PostgreSQL
+Laravel (PHP), MySQL
+Express.js (JavaScript), MongoDB  : <- I am Using this*******************
+Play Framework (Scala), PostgreSQL
+Spring Boot (Java), PostgreSQL
+Django (Python), PostgreSQL
+Dotnet (C#), PostgreSQL
+Help + Support
+I’ll be able to help teams with Docker configurations and with general things. It is important though 
+that this still be treated as a team or individual project.
+Benchmarking
+After the project is finished, on the last day of class we will have a performance benchmark-off. This 
+will involve deploying your applications to a real web-server and seeing how they perform under 
+various load conditions, etc
