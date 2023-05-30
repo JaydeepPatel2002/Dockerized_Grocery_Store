@@ -15,5 +15,5 @@ app.use('/api/notes', require('./routes/notes'))
 
 
 app.listen(port, () => {
-  console.log(`iNotebook backend listening at http://mongo:${port}`)
+  console.log(`daft store backend listening at http://mongo:${port}`)
 })
